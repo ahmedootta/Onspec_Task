@@ -17,7 +17,7 @@ This is a **Django REST API** that stores or updates job candidate contact infor
 Follow these steps *exactly* to get the server running. Don’t skip anything.
 
 **Step 1: Clone the repository**
-git clone https://github.com/ahmedoottaOnspec_task.git
+git clone git@github.com:ahmedootta/Onspec_Task.git
 cd Onspec_task
 
 **Step 2: Create a virtual environment**
