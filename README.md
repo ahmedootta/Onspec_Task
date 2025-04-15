@@ -16,37 +16,35 @@ This is a **Django REST API** that stores or updates job candidate contact infor
 
 Follow these steps *exactly* to get the server running. Don’t skip anything.
 
-**Steps**
+**Step 1: Clone the repository**
 
-Step 1: Clone the repository
-```bash
 git clone https://github.com/ahmedootta/Onspec_Task.git
 cd Onspec_task
 
-Step 2: Create a virtual environment
+**Step 2: Create a virtual environment**
 Linux/macOS: 
-```bash
+
 python3 -m venv venv
 source venv/bin/activate
 
-Step 3: Install dependencies from requirements.txt
-```bash
+**Step 3: Install dependencies from requirements.txt**
+
 pip install -r requirements.txt
 
-Step 4: Navigate to the Django project folder
-```bash
+**Step 4: Navigate to the Django project folder**
+
 cd backend
 
-Step 5: Apply migrations to set up the database
-```bash
+**Step 5: Apply migrations to set up the database**
+
 python3 manage.py migrate
 
-Step 6: Run the development server
-```bash
+**Step 6: Run the development server**
+
 python3 manage.py runserver
 
 Now open your browser and go to: http://127.0.0.1:8000/
 
-To run tests:
-```bash
+**To run tests:**
+
 python manage.py test candidates
