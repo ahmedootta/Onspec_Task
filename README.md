@@ -37,6 +37,7 @@ cd backend
 
 **Step 5: Apply migrations to set up the database**
 
+python3 manage.py makemigrations
 python3 manage.py migrate
 
 **Step 6: Run the development server**
